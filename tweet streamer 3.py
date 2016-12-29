@@ -1,3 +1,5 @@
+# info on setting up the tokens in "auth" are from the Raspberry Pi
+# Getting Started with the Twitter API" resource
 from time import sleep
 from sense_hat import SenseHat
 from twython import TwythonStreamer
@@ -12,7 +14,7 @@ sense = SenseHat()
 r = [255, 0, 0]
 w = [255, 255, 255]
 e = [0, 0, 0]
-
+# santa hat image, upside down because that's the orientation on my workspace
 image = [
     w, w, w, w, w, w, w, w,
     w, w, w, w, w, w, w, w,
